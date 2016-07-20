@@ -1,15 +1,15 @@
-package hello;
+package hello.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class JspController {
+public class HomeController {
 
-	@RequestMapping("/jsptest")
+	@RequestMapping("/eMusicStore")
 	public String test(ModelAndView modelAndView){
-		return "jsp-spring-boot";
+		return "home";
 	}
 	
 }
